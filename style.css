@@ -1,0 +1,89 @@
+/*Module2 Assignment CSS stylesheet specification*/
+/* a three section in on row containing a section head placed at top right corner of each section*/
+
+
+<style>
+
+/**************** Basic styles****************/
+*{
+ box-sizling: border-box;  
+}
+
+hi{
+    margin-bottom: 15px;
+}
+
+p {
+    border: 1px solid black;
+    background-color: #A52A2A;
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: white;
+  }
+  
+
+  /* Framework to make the page responsive. */
+.row {
+    width: 100%;
+  }
+  
+  /********** This specification is for arge devices only **********/
+@media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3 {
+      float: left;
+      border: 1px solid green;
+    }
+    .col-lg-1 {
+      width: 33.33%;
+    }
+    .col-lg-2 {
+      width: 33.33%;
+    }
+    .col-lg-3 {
+      width: 33.33%;
+    }
+
+    /********** The is the specification for Medium devices **********/
+@media (min-width: 950px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-1 {
+    width: 33.33%;
+  }
+  .col-md-2 {
+    width: 33.33%;
+  }
+  .col-md-3 {
+    width: 33.33%;
+
+  }
+
+ /********** The is the specification for smaller devices **********/
+@media (min-width: 950px) and (max-width: 1199px) {
+  .col-sm-1, .col-sm-2, .col-sm-3 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-sm-1 {
+    width: 33.33%;
+  }
+  .col-sm-2 {
+    width: 33.33%;
+  }
+  .col-sm-3 {
+    width: 33.33%;
+
+  }
+
+
+
+
+
+
+
+</style>
