@@ -1,1 +1,206 @@
+body {
+    background-color: aliceblue;
+    
+}
 
+.overflow-auto {
+ 
+
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 0px;
+}
+
+
+/* ========= HEADER SECTION=============*/
+
+#header-nav {
+    background-color: #faf9f9;
+    height: 100px;
+    border-radius: 1px;
+    border: solid black 1px;
+    padding: 10px;
+    
+  }
+
+ 
+
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+
+  #nav-list {
+    margin-top: 10px;
+    
+  }
+  #nav-list a {
+    color: #080406;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #18090e;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  /*---------------------- MAIN CONTENT START----------------------*/
+
+.row {
+  
+  height: 100px;
+ 
+ 
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #222;
+  font-size: 50;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.navbar-brand h1 {
+font-family: "Oxygen" sans-serif;
+font-style: bold;
+color: black;
+margin-top: 25px;
+padding: 10px;
+position: relative;
+left: -12px;
+
+
+}
+
+
+
+
+
+ h2 {
+  font-weight: bold;
+  font-style: bold;
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+}
+
+
+#main-content .jumbotron {
+background-color: #faf9f9;
+border: solid black 0.7px;
+
+}
+
+
+
+
+  /********** Large devices only **********/
+@media (min-width: 1200px) {
+
+
+
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+  }
+  
+  /* End Header */
+
+  
+  
+  
+  /********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  #myNavbar a { 
+    font-size: 1.2em;
+
+  }
+
+  #myNavbar a span { 
+    font-size: 1em;
+  margin-right: 5px;
+  }
+
+  .row .h1 {
+    margin-top: 40px;}
+
+  h2 {
+    margin-top: 15px;
+  }
+
+
+  #nav-list a {
+    margin-top: 5px;
+    color: #080406;
+    text-align: center;
+    border: solid black 0.5px;
+    background-color: #eaf0e6;
+    padding: 10px;
+    
+  }
+
+  #main-content .jumbotron{
+    margin-top: 60px;
+    vertical-align: bottom;
+  }
+
+  .row {
+    margin-top: 80px;
+    position: relative;
+    top: 30px;
+  }
+
+  p{
+    text-align: center;
+  }
+
+
+
+  
+
+ 
+ 
+}
