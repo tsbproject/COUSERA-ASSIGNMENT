@@ -27,6 +27,7 @@ function speak(name) {
 (function (name) {
   var byeSpeaker = {};
   var speakWord = "Good Bye";
+  var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
   byeSpeaker.speak = function (name) {
     console.log(speakWord +' '+ name);
   }
